@@ -1,8 +1,8 @@
-# Calculate the factorial of all numbers in a date
+# Calculate the factorial of all digits in a date
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Simple app designed to receive date in the format of `DD/MM/YYYY` and calculate the factorial of sum of all numbers in the date. This app was written as a assignment in SSAD course at Innopolis University.
+Simple app designed to receive date in the format of `DD/MM/YYYY` and calculate the factorial of sum of all digits in the date. This app was written as a assignment in SSAD course at Innopolis University.
 
 ## Example
 
@@ -11,7 +11,7 @@ Example of usage:
 ```
 python3 main.py
 Enter date: 20/05/2020
-Factorial of all numbers in date: 11! = 39916800
+Factorial of all digits in date: 11! = 39916800
 ```
 
 ## Installation and usage guide
@@ -46,11 +46,11 @@ Enter date: 12.31.2004
 Date does not match pattern DD/MM/YYYY. Try again.
 ```
 
-After entering correct date, factorial of sum of all numbers in date will be calculated and printed out:
+After entering correct date, factorial of sum of all digits in date will be calculated and printed out:
 
 ```
 Enter date: 19/08/2021
-Factorial of all numbers in date: 23! = 25852016738884976640000
+Factorial of all digits in date: 23! = 25852016738884976640000
 ```
 
 ## Contributions

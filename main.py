@@ -17,7 +17,7 @@ def factorial_date():
         if element.isnumeric():
             total += int(element)
 
-    print('Factorial of all numbers in date: ', total, '! = ', math.factorial(total), sep='')
+    print('Factorial of all digits in date: ', total, '! = ', math.factorial(total), sep='')
 
 
 if __name__ == "__main__":
